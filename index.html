@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>20261102 | 茶米投中美術班 - Share Bar 作品看板</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎨</text></svg>">
+  <link rel="stylesheet" href="style.css">
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="dark-theme">
+
+  <!-- Password Protection Gate -->
+  <div id="passwordGate" class="password-gate">
+    <div class="password-card">
+      <div class="lock-icon-wrapper">
+        <i data-lucide="lock" class="lock-icon"></i>
+      </div>
+      <h2>20261102 | 茶米投中美術班</h2>
+      <p class="gate-subtitle">此看板受密碼保護，請輸入密碼以解鎖作品展覽</p>
+      
+      <form id="passwordForm" onsubmit="handlePasswordSubmit(event)">
+        <div class="input-group">
+          <input 
+            type="password" 
+            id="passwordInput" 
+            placeholder="請輸入密碼..." 
+            autocomplete="current-password"
+            required
+            autofocus
+          />
+          <button type="submit" id="unlockBtn" class="primary-btn">
+            <span>解鎖進入</span>
+            <i data-lucide="arrow-right"></i>
+          </button>
+        </div>
+        <p id="passwordError" class="error-msg"></p>
+        <div class="gate-hint">
+          <small><i data-lucide="shield-check" class="hint-icon"></i> 提示：通關密碼已設定</small>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Main Board App (Unlocked) -->
+  <div id="appContainer" class="app-container locked">
+    <!-- Navbar / Header -->
+    <header class="board-header">
+      <div class="header-left">
+        <div class="board-brand">
+          <span class="brand-icon">🎨</span>
+          <div class="title-wrap">
+            <h1 id="boardTitle">20261102</h1>
+            <span class="subtitle">茶米投中美術班 · 作品看板</span>
+          </div>
+        </div>
+        <div class="board-badges">
+          <span class="badge post-count-badge" id="postCountBadge">
+            <i data-lucide="layout-grid"></i> <span id="postCount">189</span> 則貼文
+          </span>
+          <span class="badge author-count-badge" id="authorCountBadge">
+            <i data-lucide="users"></i> <span id="authorCount">--</span> 位作者
+          </span>
+        </div>
+      </div>
+
+      <!-- Controls & Filter Toolbar -->
+      <div class="header-controls">
+        <!-- Search -->
+        <div class="search-box">
+          <i data-lucide="search" class="search-icon"></i>
+          <input type="text" id="searchInput" placeholder="搜尋學生姓名、作品說明..." />
+          <button id="clearSearchBtn" class="clear-search hidden" title="清除搜尋">
+            <i data-lucide="x"></i>
+          </button>
+        </div>
+
+        <!-- Filter Author -->
+        <div class="select-wrapper">
+          <select id="authorFilter" title="依作者篩選">
+            <option value="">全部作者 (All)</option>
+          </select>
+        </div>
+
+        <!-- Sort Select -->
+        <div class="select-wrapper">
+          <select id="sortSelect" title="排序方式">
+            <option value="original">原始順序</option>
+            <option value="likes">最多愛心 ❤️</option>
+            <option value="comments">最多討論 💬</option>
+            <option value="author">作者姓名</option>
+          </select>
+        </div>
+
+        <!-- Layout toggle -->
+        <div class="layout-toggle" title="切換排版模式">
+          <button id="btnGrid" class="active" title="網格展示"><i data-lucide="grid-3x3"></i></button>
+          <button id="btnColumns" title="瀑布流"><i data-lucide="columns-3"></i></button>
+        </div>
+
+        <!-- Theme toggle -->
+        <button id="themeToggleBtn" class="icon-btn" title="切換明暗主題">
+          <i data-lucide="sun" id="themeIcon"></i>
+        </button>
+
+        <!-- Lock button -->
+        <button id="lockBtn" class="icon-btn" title="鎖定看板">
+          <i data-lucide="lock"></i>
+        </button>
+      </div>
+    </header>
+
+    <!-- Sub-bar: Active filters & quick stats -->
+    <div class="sub-header">
+      <div class="sub-left">
+        <span id="filterStatsText">顯示所有作品 (共 189 件)</span>
+        <a href="https://sharebar.app/zh/boards/1a003596-dba1-4e12-a4a3-b22011422f0c" target="_blank" rel="noopener noreferrer" class="original-link">
+          <i data-lucide="external-link"></i> 開啟原始 ShareBar 看板
+        </a>
+      </div>
+      <div class="sub-right">
+        <span class="keyboard-hint"><kbd>Esc</kbd> 關閉大圖 / <kbd>←</kbd> <kbd>→</kbd> 切換作品</span>
+      </div>
+    </div>
+
+    <!-- Main Board Grid -->
+    <main class="board-main">
+      <div id="postsGrid" class="posts-grid">
+        <!-- Rendered by app.js -->
+      </div>
+      
+      <!-- Empty State -->
+      <div id="emptyState" class="empty-state hidden">
+        <i data-lucide="search-x" class="empty-icon"></i>
+        <h3>找不到符合條件的作品</h3>
+        <p>請嘗試其他搜尋關鍵字或清除篩選條件</p>
+        <button id="resetFilterBtn" class="primary-btn">重設所有篩選</button>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="board-footer">
+      <p>1151030 茶米投中美術班 · 學生作品展示典藏庫 · 密碼保護版</p>
+    </footer>
+  </div>
+
+  <!-- Lightbox Modal -->
+  <div id="lightboxModal" class="lightbox-modal hidden" onclick="handleLightboxBgClick(event)">
+    <div class="lightbox-container" onclick="event.stopPropagation()">
+      <button class="lightbox-close" id="lightboxCloseBtn" title="關閉 (Esc)">
+        <i data-lucide="x"></i>
+      </button>
+
+      <!-- Nav buttons -->
+      <button class="lightbox-nav prev" id="lightboxPrevBtn" title="上一張 (←)">
+        <i data-lucide="chevron-left"></i>
+      </button>
+      <button class="lightbox-nav next" id="lightboxNextBtn" title="下一張 (→)">
+        <i data-lucide="chevron-right"></i>
+      </button>
+
+      <!-- Main content -->
+      <div class="lightbox-body">
+        <div class="lightbox-media-area" id="lightboxMediaArea">
+          <img id="lightboxImg" src="" alt="作品放大圖" />
+          <div class="lightbox-zoom-bar">
+            <button id="zoomOutBtn" title="縮小"><i data-lucide="zoom-out"></i></button>
+            <button id="zoomResetBtn" title="重設比例"><i data-lucide="maximize-2"></i></button>
+            <button id="zoomInBtn" title="放大"><i data-lucide="zoom-in"></i></button>
+            <a id="downloadImgBtn" href="" download="" target="_blank" class="zoom-btn" title="下載原圖">
+              <i data-lucide="download"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Sidebar / details -->
+        <div class="lightbox-sidebar">
+          <div class="lightbox-author-header">
+            <div class="author-avatar" id="lightboxAvatar"></div>
+            <div class="author-info">
+              <h4 id="lightboxAuthorName">作者姓名</h4>
+              <span class="lightbox-date" id="lightboxDate">發佈時間</span>
+            </div>
+          </div>
+
+          <div class="lightbox-content">
+            <h3 id="lightboxTitle" class="lightbox-post-title"></h3>
+            <p id="lightboxBody" class="lightbox-post-body"></p>
+            <div id="lightboxLinkWrap" class="lightbox-link-wrap hidden">
+              <a id="lightboxLink" href="" target="_blank" rel="noopener noreferrer">
+                <i data-lucide="link"></i> <span>外部連結</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="lightbox-stats-row">
+            <button id="lightboxLikeBtn" class="action-btn like-btn">
+              <i data-lucide="heart"></i>
+              <span id="lightboxLikeCount">0</span>
+            </button>
+            <span class="action-btn comment-stat">
+              <i data-lucide="message-circle"></i>
+              <span id="lightboxCommentCount">0</span> 則留言
+            </span>
+          </div>
+
+          <div class="lightbox-comments-section">
+            <h5>留言討論</h5>
+            <div id="lightboxCommentsList" class="comments-list">
+              <!-- Rendered dynamically -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Data & Logic Scripts -->
+  <script src="posts_data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

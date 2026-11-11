@@ -1,0 +1,810 @@
+{
+  "chatLatestRevision": 885,
+  "id": "1a003596-dba1-4e12-a4a3-b22011422f0c",
+  "revision": 1054,
+  "realtime": true,
+  "data": {
+    "draw": {
+      "id": "",
+      "history": []
+    },
+    "timer": {
+      "label": "",
+      "endsAt": null,
+      "status": "ready",
+      "lockPosts": false,
+      "remaining": 300
+    },
+    "title": "20261102",
+    "access": "link",
+    "buzzer": {
+      "id": "",
+      "phase": "closed",
+      "winner": null,
+      "eligible": []
+    },
+    "frozen": false,
+    "layout": {
+      "mode": "grid",
+      "newPostsAt": "start",
+      "groupByColumn": false
+    },
+    "scoring": {
+      "enabled": false,
+      "resetAt": null,
+      "sinceRevision": 0
+    },
+    "language": "zh",
+    "nameMode": "display",
+    "allowVotes": true,
+    "permission": "post",
+    "uniqueNames": false,
+    "chatRevision": 885,
+    "instructions": "",
+    "accessVersion": 2,
+    "namingVersion": 0,
+    "shareRevision": 2,
+    "lastActivityAt": "2026-11-02T09:58:46.502Z",
+    "requireAccount": false,
+    "acceptQuestions": true,
+    "settingsRevision": 0,
+    "requireNameOnEntry": true
+  },
+  "entities": [
+    {
+      "id": "52a066d4-823f-4750-8c0f-d4128abdbd32",
+      "kind": "column",
+      "name": "一般",
+      "color": "slate",
+      "order": 0,
+      "revision": 0
+    },
+    {
+      "id": "b6e4a274-3134-4544-977d-0383afcdf43b",
+      "kind": "hand",
+      "name": "Fanny芳秀",
+      "order": 20,
+      "author": "g:00efc4db98266c19f0a24d3dbf3023ca59be014174944085f740f35a1b741ef7",
+      "raisedAt": "2026-11-02T05:27:14.494Z",
+      "revision": 20
+    },
+    {
+      "id": "72d13b33-25e0-4821-9291-7f348367ba4d",
+      "body": "+22222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222",
+      "kind": "question",
+      "votes": [
+        "g:e6c889d3049e25537bb0b6cbd0b88f105bd8b62da5d3a839b010344adc34f7c6"
+      ],
+      "answered": false,
+      "revision": 771,
+      "createdAt": "2026-11-02T06:30:18.110Z",
+      "submittedByMe": false
+    },
+    {
+      "id": "90b51b1d-1bf5-44a2-a1dd-5aa372e656bb",
+      "body": "+2222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222",
+      "kind": "question",
+      "votes": [],
+      "answered": false,
+      "revision": 773,
+      "createdAt": "2026-11-02T06:31:22.189Z",
+      "submittedByMe": false
+    },
+    {
+      "id": "d97b6a2e-a522-4604-abf2-b08aa20b2e4c",
+      "body": "多遠",
+      "kind": "question",
+      "votes": [
+        "g:15bcb541cb6d170aa5e4531fd8acd60ff3b4df87a8476a648f4cacc3e94dedd3",
+        "g:9f250c0a60c9808ee522b83149f341ae9aaed5e273bf8ffb25377cefe62617a6"
+      ],
+      "answered": false,
+      "revision": 759,
+      "createdAt": "2026-11-02T06:23:10.813Z",
+      "submittedByMe": false
+    }
+  ],
+  "actor": {
+    "id": "g:be2dde7da65044bca89f0b1a2c35afb329e1348125da7cbd690823c4ccdda9ba",
+    "owner": false,
+    "permission": "post",
+    "account": false,
+    "name": "nato",
+    "named": true,
+    "hasPosted": false
+  },
+  "ownerId": "u:user_2ofCf4QMrulXYezpPZOaz2oiKE1",
+  "people": [
+    {
+      "id": "g:e9c2d860f9f4958f84eb14cbfc0b00bf446cf49a90e894cb51085d596a29c436",
+      "name": "nato",
+      "account": false
+    },
+    {
+      "id": "g:be2dde7da65044bca89f0b1a2c35afb329e1348125da7cbd690823c4ccdda9ba",
+      "name": "nato",
+      "account": false
+    },
+    {
+      "id": "g:63b158c9c9ad29b146f071b5e85e6f2f0e8b645a5d0b3f8c55310427f65deaa2",
+      "name": "nato",
+      "account": false
+    },
+    {
+      "id": "u:user_2nPsUChYWE1WjNoNNQ4R2hLt3Jm",
+      "name": "YH",
+      "account": true
+    }
+  ],
+  "serverTime": 1794412912750.013,
+  "channel": "private-board-1a003596-dba1-4e12-a4a3-b22011422f0c-2",
+  "delta": false,
+  "removed": [],
+  "plan": "paid",
+  "paged": true,
+  "posts": [
+    {
+      "id": "fabb130e-e431-408a-8109-f3dbaab59b17",
+      "body": "",
+      "kind": "post",
+      "link": "",
+      "name": "曾詳珉 市集",
+      "rank": "Szyx",
+      "order": 202,
+      "title": "",
+      "author": "g:037b59882399b1f81b7418d34f6b8db36b7e33fc4215617a1fbb8a17989fbf12",
+      "columnId": "52a066d4-823f-4750-8c0f-d4128abdbd32",
+      "revision": 945,
+      "createdAt": "2026-11-02T08:35:22.723Z",
+      "attachments": [
+        {
+          "id": "9d9af5ff-f049-418f-88f9-9949128a8fb6",
+          "name": "3a520c02-00ff-4244-a505-a7c0002a8944.png",
+          "size": 2277385,
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "a349ca9e-cab5-410d-9e3a-26bbcc8755f8",
+      "body": "",
+      "kind": "post",
+      "link": "",
+      "name": "王譽靜duwu",
+      "rank": "Szyy",
+      "order": 201,
+      "title": "",
+      "author": "g:9f250c0a60c9808ee522b83149f341ae9aaed5e273bf8ffb25377cefe62617a6",
+      "columnId": "52a066d4-823f-4750-8c0f-d4128abdbd32",
+      "revision": 936,
+      "createdAt": "2026-11-02T08:32:46.861Z",
+      "attachments": [
+        {
+          "id": "12237b9a-49f7-4ada-b467-af1452107c79",
+          "name": "貼上的圖片 2026-11-02 1632.png",
+          "size": 1315162,
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "3947d4d1-efd2-4a02-9a78-8a2e08034f64",
+      "body": "",
+      "kind": "post",
+      "link": "",
+      "name": "簡語辰",
+      "rank": "Szyz",
+      "order": 200,
+      "title": "",
+      "author": "g:70153e44cdf1b50fee0cb6fb1e1832dbd839586856b2deb080e5ca492ff336dc",
+      "columnId": "52a066d4-823f-4750-8c0f-d4128abdbd32",
+      "revision": 933,
+      "createdAt": "2026-11-02T08:31:59.861Z",
+      "attachments": [
+        {
+          "id": "45548370-7cbc-4a1c-8f44-47a1cf485c28",
+          "name": "貼上的圖片 2026-11-02 1631.png",
+          "size": 1084118,
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "5cfacb16-90ec-45a8-a6c1-00d10af21227",
+      "body": "",
+      "kind": "post",
+      "link": "",
+      "name": "bibibibibibibibibibibibibibiibibiiibibibiibib",
+      "rank": "Szz",
+      "order": 199,
+      "title": "",
+      "author": "g:100f8b9061358aaeae362f37ccf75db57cef196a169369419f96cd49476940da",
+      "columnId": "52a066d4-823f-4750-8c0f-d4128abdbd32",
+      "revision": 928,
+      "createdAt": "2026-11-02T08:30:54.511Z",
+      "attachments": [
+        {
+          "id": "0fe83ef9-c28d-4d5c-8607-30e27a6dc27f",
+          "name": "image_3b719cb1 (2).jpg",
+          "size": 848547,
+          "type": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "id": "06102476-ed5f-474d-bd5f-5262a9ea9048",
+      "body": "",
+      "kind": "post",
+      "link": "",
+      "name": "周紜丞",
+      "rank": "Szz1",
+      "order": 198,
+      "title": "",
+      "author": "g:28fc34551a85aca41ee246b0ac7b25b270afbcfc1772f2523e19c337dfb42b70",
+      "columnId": "52a066d4-823f-4750-8c0f-d4128abdbd32",
+      "revision": 927,
+      "createdAt": "2026-11-02T08:30:49.783Z",
+      "attachments": [
+        {
+          "id": "b652967b-0625-4c59-a71b-6d62d7dbf8a6",
+          "name": "9882d790-bff3-4574-ad9e-9d6082cd7757.png",
+          "size": 2057643,
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "5d7d6d1c-3b08-4123-a776-6ba594a1e9f6",
+      "body": "",
+      "kind": "post",
+      "link": "",
+      "name": "張紫甯",
+      "rank": "Szz2",
+      "order": 197,
+      "title": "",
+      "author": "g:4698e76a0555946bd3c51f8a4fb75f21ff83c9eab14b6c5a6836d3c2a748fdcd",
+      "columnId": "52a066d4-823f-4750-8c0f-d4128abdbd32",
+      "revision": 926,
+      "createdAt": "2026-11-02T08:30:41.194Z",
+      "attachments": [
+        {
+          "id": "b0e37035-a0f7-48c3-a2fb-dfbd6247a0ea",
+          "name": "貼上的圖片 2026-11-02 1630.png",
+          "size": 1142481,
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "f7077b66-36d4-4ce2-9496-b4d2aa7cd917",
+      "body": "",
+      "kind": "post",
+      "link": "",
+      "name": "",
+      "rank": "Szz3",
+      "order": 196,
+      "title": "",
+      "author": "g:eecdfe99a9be63a900faa609ea5c4b0fb2e1982f796406730150ab0acd983803",
+      "columnId": "52a066d4-823f-4750-8c0f-d4128abdbd32",
+      "nameSlot": 30,
+      "revision": 924,
+      "createdAt": "2026-11-02T08:30:36.946Z",
+      "attachments": [
+        {
+          "id": "fb5c8152-c51f-48a6-9f12-f02fa6d662ba",
+          "name": "貼上的圖片 2026-11-02 1630.png",
+          "size": 1181085,
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "07fd6c52-9a94-4ec8-8ef0-e3ae73b6bcc9",
+      "body": "",
+      "kind": "post",
+      "link": "",
+      "name": "",
+      "rank": "Szz4",
+      "order": 195,
+      "title": "",
+      "author": "g:09b7253d47661ad0ce81ab90d3afbaf8468cf965378cc01df5b80e0b8b639dd5",
+      "columnId": "52a066d4-823f-4750-8c0f-d4128abdbd32",
+      "nameSlot": 8,
+      "revision": 921,
+      "createdAt": "2026-11-02T08:30:05.900Z",
+      "attachments": [
+        {
+          "id": "3be53e74-7f74-4c06-a8e5-87cbce2db34a",
+          "name": "Gemini_Generated_Image_izprc6izprc6izpr.jpg",
+          "size": 706948,
+          "type": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "id": "5c3260bd-d6b8-4dd0-8ec8-08cb7b91616d",
+      "body": "",
+      "kind": "post",
+      "link": "",
+      "name": "吳政勳",
+      "rank": "Szz5",
+      "order": 194,
+      "title": "",
+      "author": "g:fe20039d39b1a743b83022a426a5cd29ae06dfde79d3e6e73bd28230c1132842",
+      "columnId": "52a066d4-823f-4750-8c0f-d4128abdbd32",
+      "revision": 920,
+      "createdAt": "2026-11-02T08:30:00.641Z",
+      "attachments": [
+        {
+          "id": "8f02eace-1019-49d8-95aa-1302a078ec0b",
+          "name": "Gemini_Generated_Image_w0m4csw0m4csw0m4.jpg",
+          "size": 838985,
+          "type": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "id": "a9df6c69-8133-43df-9857-16c96a1be462",
+      "body": "",
+      "kind": "post",
+      "link": "",
+      "name": "張敬堯",
+      "rank": "Szz6",
+      "order": 193,
+      "title": "",
+      "author": "g:eaee131395cd085379f24bc82956fd04df1d4af44d36482d4e7731450dfcf650",
+      "columnId": "52a066d4-823f-4750-8c0f-d4128abdbd32",
+      "revision": 917,
+      "createdAt": "2026-11-02T08:29:47.008Z",
+      "attachments": [
+        {
+          "id": "2bfa3093-6d99-45fb-81e8-eb66684df6c5",
+          "name": "貼上的圖片 2026-11-02 1629.png",
+          "size": 2937578,
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "dbb61bfb-1933-402e-8895-100b5dbe32ff",
+      "body": "クロヱ將",
+      "kind": "post",
+      "link": "",
+      "name": "Kazama  Chloe",
+      "rank": "Szz7",
+      "order": 192,
+      "title": "",
+      "author": "g:15bcb541cb6d170aa5e4531fd8acd60ff3b4df87a8476a648f4cacc3e94dedd3",
+      "columnId": "52a066d4-823f-4750-8c0f-d4128abdbd32",
+      "revision": 913,
+      "createdAt": "2026-11-02T08:29:38.705Z",
+      "attachments": [
+        {
+          "id": "d64076df-1a3c-40cd-b023-5e8c649fd705",
+          "name": "Gemini_Generated_Image_o5qazoo5qazoo5qa.jpg",
+          "size": 750788,
+          "type": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "id": "e4c64090-0d81-480d-958d-5cee3fc5809b",
+      "body": "",
+      "kind": "post",
+      "link": "",
+      "name": "簡語辰",
+      "rank": "Szz8",
+      "order": 191,
+      "title": "",
+      "author": "g:70153e44cdf1b50fee0cb6fb1e1832dbd839586856b2deb080e5ca492ff336dc",
+      "columnId": "52a066d4-823f-4750-8c0f-d4128abdbd32",
+      "revision": 912,
+      "createdAt": "2026-11-02T08:29:27.928Z",
+      "attachments": [
+        {
+          "id": "cec2d39e-1e58-406a-9501-83f33ac01213",
+          "name": "貼上的圖片 2026-11-02 1629.png",
+          "size": 1092781,
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "bb67e657-9726-4e4a-afe4-27f51446d0cb",
+      "body": "",
+      "kind": "post",
+      "link": "",
+      "name": "劉仲桓",
+      "rank": "Szz9",
+      "order": 190,
+      "title": "",
+      "author": "g:7a174e8350add86e8827b6be91ea9f3acf8c9522332d5efa5feeebe2bc0ca21f",
+      "columnId": "52a066d4-823f-4750-8c0f-d4128abdbd32",
+      "revision": 910,
+      "createdAt": "2026-11-02T08:29:19.455Z",
+      "attachments": [
+        {
+          "id": "84127242-9a85-4195-94fc-ea40f38ff622",
+          "name": "貼上的圖片 2026-11-02 1629.png",
+          "size": 2615977,
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "28b3534a-d9f4-4e5a-a817-bd1b3f001a8f",
+      "body": "",
+      "kind": "post",
+      "link": "",
+      "name": "林桂芳",
+      "rank": "SzzA",
+      "order": 189,
+      "title": "",
+      "author": "g:322bd6c98e8ab882410e522cc6d717d1527d53bfaffdfe843136cb2ccc141d67",
+      "columnId": "52a066d4-823f-4750-8c0f-d4128abdbd32",
+      "revision": 909,
+      "createdAt": "2026-11-02T08:29:08.744Z",
+      "attachments": [
+        {
+          "id": "b50dbcca-f27b-467e-8c5f-dfdff6b3af6b",
+          "name": "Gemini_Generated_Image_z3ypuxz3ypuxz3yp.jpg",
+          "size": 677234,
+          "type": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "id": "aff9484f-553e-459f-a46e-e83e4833de61",
+      "body": "",
+      "kind": "post",
+      "link": "",
+      "name": "謝佩宸",
+      "rank": "SzzB",
+      "order": 188,
+      "title": "",
+      "author": "g:8184c7b591c5df5907335e1857efab7bb8aaa829c61aa08b090becde92caf43b",
+      "columnId": "52a066d4-823f-4750-8c0f-d4128abdbd32",
+      "revision": 907,
+      "createdAt": "2026-11-02T08:28:57.046Z",
+      "attachments": [
+        {
+          "id": "edcc594a-1c83-4d9a-b62d-ad1ed25e4804",
+          "name": "Gemini_Generated_Image_qdysyoqdysyoqdys.jpg",
+          "size": 757105,
+          "type": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "id": "41b2f628-9c6c-44b7-bba4-57511f1a499e",
+      "body": "",
+      "kind": "post",
+      "link": "",
+      "name": "曾詳珉 市集",
+      "rank": "SzzC",
+      "order": 187,
+      "title": "",
+      "author": "g:037b59882399b1f81b7418d34f6b8db36b7e33fc4215617a1fbb8a17989fbf12",
+      "columnId": "52a066d4-823f-4750-8c0f-d4128abdbd32",
+      "revision": 902,
+      "createdAt": "2026-11-02T08:28:10.688Z",
+      "attachments": [
+        {
+          "id": "eb37eeaf-0dde-43fa-af7f-345ebd28de10",
+          "name": "06bded01-54d7-4273-8177-7bd880c1d979.png",
+          "size": 2701221,
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "3b4ce916-b49f-4a6d-8396-6f3ca634f80e",
+      "body": "",
+      "kind": "post",
+      "link": "",
+      "name": "",
+      "rank": "SzzD",
+      "order": 186,
+      "title": "",
+      "author": "g:3079da8c95219840a177c44c94a3e0d8aca1a76528be359a56531250f70f2c7b",
+      "columnId": "52a066d4-823f-4750-8c0f-d4128abdbd32",
+      "nameSlot": 23,
+      "revision": 901,
+      "createdAt": "2026-11-02T08:27:59.406Z",
+      "attachments": [
+        {
+          "id": "5ecdeab8-1d0a-4a26-9756-5337deee4f24",
+          "name": "貼上的圖片 2026-11-02 1627.png",
+          "size": 1146828,
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "47044efd-afb4-4619-9412-42cf4d5360a3",
+      "body": "",
+      "kind": "post",
+      "link": "",
+      "name": "",
+      "rank": "SzzE",
+      "order": 185,
+      "title": "",
+      "author": "g:eecdfe99a9be63a900faa609ea5c4b0fb2e1982f796406730150ab0acd983803",
+      "columnId": "52a066d4-823f-4750-8c0f-d4128abdbd32",
+      "nameSlot": 30,
+      "revision": 900,
+      "createdAt": "2026-11-02T08:27:58.469Z",
+      "attachments": [
+        {
+          "id": "07ff8064-8568-4960-89e2-d9e04246a9c1",
+          "name": "貼上的圖片 2026-11-02 1627.png",
+          "size": 1196623,
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "26d7714d-c21a-4d13-8b81-26fb91768364",
+      "body": "",
+      "kind": "post",
+      "link": "",
+      "name": "石玉婷",
+      "rank": "SzzF",
+      "order": 184,
+      "title": "",
+      "author": "g:861c250193f99cfcd452e539a022270da0156054aae55a48c87722a0287e6f1d",
+      "columnId": "52a066d4-823f-4750-8c0f-d4128abdbd32",
+      "revision": 899,
+      "createdAt": "2026-11-02T08:27:53.362Z",
+      "attachments": [
+        {
+          "id": "600bafd6-bbaf-45d1-990e-28ed958dcd8b",
+          "name": "貼上的圖片 2026-11-02 1627.png",
+          "size": 1032763,
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "abe0a5c8-a738-45dc-8404-a3f977054e8c",
+      "body": "",
+      "kind": "post",
+      "link": "",
+      "name": "",
+      "rank": "SzzG",
+      "order": 183,
+      "title": "",
+      "author": "g:09b7253d47661ad0ce81ab90d3afbaf8468cf965378cc01df5b80e0b8b639dd5",
+      "columnId": "52a066d4-823f-4750-8c0f-d4128abdbd32",
+      "nameSlot": 8,
+      "revision": 898,
+      "createdAt": "2026-11-02T08:27:51.020Z",
+      "attachments": [
+        {
+          "id": "dac044c2-41b1-4601-9749-313f77f503f0",
+          "name": "Gemini_Generated_Image_ayfcy6ayfcy6ayfc (1).jpg",
+          "size": 730242,
+          "type": "image/jpeg"
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "fabb130e-e431-408a-8109-f3dbaab59b17": {
+      "comments": 0,
+      "reactions": [],
+      "latest": []
+    },
+    "a349ca9e-cab5-410d-9e3a-26bbcc8755f8": {
+      "comments": 0,
+      "reactions": [
+        {
+          "emoji": "❤️",
+          "count": 2
+        }
+      ],
+      "latest": []
+    },
+    "3947d4d1-efd2-4a02-9a78-8a2e08034f64": {
+      "comments": 0,
+      "reactions": [],
+      "latest": []
+    },
+    "5cfacb16-90ec-45a8-a6c1-00d10af21227": {
+      "comments": 0,
+      "reactions": [],
+      "latest": []
+    },
+    "06102476-ed5f-474d-bd5f-5262a9ea9048": {
+      "comments": 0,
+      "reactions": [],
+      "latest": []
+    },
+    "5d7d6d1c-3b08-4123-a776-6ba594a1e9f6": {
+      "comments": 0,
+      "reactions": [],
+      "latest": []
+    },
+    "f7077b66-36d4-4ce2-9496-b4d2aa7cd917": {
+      "comments": 0,
+      "reactions": [],
+      "latest": []
+    },
+    "07fd6c52-9a94-4ec8-8ef0-e3ae73b6bcc9": {
+      "comments": 0,
+      "reactions": [
+        {
+          "emoji": "❤️",
+          "count": 1
+        }
+      ],
+      "latest": []
+    },
+    "5c3260bd-d6b8-4dd0-8ec8-08cb7b91616d": {
+      "comments": 0,
+      "reactions": [],
+      "latest": []
+    },
+    "a9df6c69-8133-43df-9857-16c96a1be462": {
+      "comments": 2,
+      "reactions": [
+        {
+          "emoji": "❤️",
+          "count": 3
+        }
+      ],
+      "latest": [
+        {
+          "id": "6767109b-2be0-4f68-aa40-379009e3881c",
+          "body": "朱菜?",
+          "kind": "comment",
+          "name": "Kazama  Chloe",
+          "author": "g:15bcb541cb6d170aa5e4531fd8acd60ff3b4df87a8476a648f4cacc3e94dedd3",
+          "postId": "a9df6c69-8133-43df-9857-16c96a1be462",
+          "revision": 922,
+          "createdAt": "2026-11-02T08:30:31.459Z"
+        },
+        {
+          "id": "ad600b1c-78e7-45df-ba3b-9966abaf1df2",
+          "body": "沒錯!",
+          "kind": "comment",
+          "name": "張敬堯",
+          "author": "g:eaee131395cd085379f24bc82956fd04df1d4af44d36482d4e7731450dfcf650",
+          "postId": "a9df6c69-8133-43df-9857-16c96a1be462",
+          "revision": 932,
+          "createdAt": "2026-11-02T08:31:52.331Z"
+        }
+      ]
+    },
+    "dbb61bfb-1933-402e-8895-100b5dbe32ff": {
+      "comments": 0,
+      "reactions": [
+        {
+          "emoji": "❤️",
+          "count": 1
+        }
+      ],
+      "latest": []
+    },
+    "e4c64090-0d81-480d-958d-5cee3fc5809b": {
+      "comments": 0,
+      "reactions": [
+        {
+          "emoji": "👍",
+          "count": 1
+        },
+        {
+          "emoji": "😂",
+          "count": 1
+        }
+      ],
+      "latest": []
+    },
+    "bb67e657-9726-4e4a-afe4-27f51446d0cb": {
+      "comments": 0,
+      "reactions": [],
+      "latest": []
+    },
+    "28b3534a-d9f4-4e5a-a817-bd1b3f001a8f": {
+      "comments": 0,
+      "reactions": [
+        {
+          "emoji": "❤️",
+          "count": 1
+        }
+      ],
+      "latest": []
+    },
+    "aff9484f-553e-459f-a46e-e83e4833de61": {
+      "comments": 0,
+      "reactions": [],
+      "latest": []
+    },
+    "41b2f628-9c6c-44b7-bba4-57511f1a499e": {
+      "comments": 1,
+      "reactions": [
+        {
+          "emoji": "❤️",
+          "count": 1
+        }
+      ],
+      "latest": [
+        {
+          "id": "cfa2b947-34ee-4d6c-ac71-a494e5e13878",
+          "body": "卡哇伊",
+          "kind": "comment",
+          "name": "簡宓棠",
+          "author": "g:7b85745d17cae117b3e46b93f28aa2fea7dc76892dbd18dd2d95a5280d495acc",
+          "postId": "41b2f628-9c6c-44b7-bba4-57511f1a499e",
+          "revision": 906,
+          "createdAt": "2026-11-02T08:28:50.976Z"
+        }
+      ]
+    },
+    "3b4ce916-b49f-4a6d-8396-6f3ca634f80e": {
+      "comments": 0,
+      "reactions": [
+        {
+          "emoji": "❤️",
+          "count": 1
+        }
+      ],
+      "latest": []
+    },
+    "47044efd-afb4-4619-9412-42cf4d5360a3": {
+      "comments": 0,
+      "reactions": [],
+      "latest": []
+    },
+    "26d7714d-c21a-4d13-8b81-26fb91768364": {
+      "comments": 0,
+      "reactions": [],
+      "latest": []
+    },
+    "abe0a5c8-a738-45dc-8404-a3f977054e8c": {
+      "comments": 0,
+      "reactions": [],
+      "latest": []
+    }
+  },
+  "lists": {
+    "flow": {
+      "ids": [
+        "fabb130e-e431-408a-8109-f3dbaab59b17",
+        "a349ca9e-cab5-410d-9e3a-26bbcc8755f8",
+        "3947d4d1-efd2-4a02-9a78-8a2e08034f64",
+        "5cfacb16-90ec-45a8-a6c1-00d10af21227",
+        "06102476-ed5f-474d-bd5f-5262a9ea9048",
+        "5d7d6d1c-3b08-4123-a776-6ba594a1e9f6",
+        "f7077b66-36d4-4ce2-9496-b4d2aa7cd917",
+        "07fd6c52-9a94-4ec8-8ef0-e3ae73b6bcc9",
+        "5c3260bd-d6b8-4dd0-8ec8-08cb7b91616d",
+        "a9df6c69-8133-43df-9857-16c96a1be462",
+        "dbb61bfb-1933-402e-8895-100b5dbe32ff",
+        "e4c64090-0d81-480d-958d-5cee3fc5809b",
+        "bb67e657-9726-4e4a-afe4-27f51446d0cb",
+        "28b3534a-d9f4-4e5a-a817-bd1b3f001a8f",
+        "aff9484f-553e-459f-a46e-e83e4833de61",
+        "41b2f628-9c6c-44b7-bba4-57511f1a499e",
+        "3b4ce916-b49f-4a6d-8396-6f3ca634f80e",
+        "47044efd-afb4-4619-9412-42cf4d5360a3",
+        "26d7714d-c21a-4d13-8b81-26fb91768364",
+        "abe0a5c8-a738-45dc-8404-a3f977054e8c"
+      ],
+      "cursor": "eyJ2IjoxLCJvIjoiZmxvdyIsIm4iOiJzdGFydCIsImsiOlswLCJTenpHIiwiMjAyNi0xMS0wMlQwODoyNzo1MS4wMjBaIiwiYWJlMGE1YzgtYTczOC00NWRjLTg0MDQtYTNmOTc3MDU0ZThjIl19"
+    }
+  },
+  "totals": {
+    "posts": 189,
+    "byColumn": {
+      "52a066d4-823f-4750-8c0f-d4128abdbd32": 189
+    }
+  },
+  "me": {
+    "memberId": "g:be2dde7da65044bca89f0b1a2c35afb329e1348125da7cbd690823c4ccdda9ba",
+    "interaction": 0,
+    "teacher": 0,
+    "total": 0,
+    "events": []
+  }
+}
